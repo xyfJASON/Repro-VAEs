@@ -1,0 +1,21 @@
+# DATA
+dataset: celeba
+dataroot: /home/jason/data
+img_size: 64
+
+# MODEL
+latent_dim: 128
+
+# TRAIN
+epochs: 200
+batch_size: 256
+
+optimizer:
+  choice: adam
+  adam:
+    lr: 0.005
+
+weight_kl: 0.00025  # better to be around 1 / (img_size ** 2)
+
+sample_freq: 1
+save_freq: 5
