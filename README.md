@@ -37,4 +37,4 @@ python generate.py \
 
 ### VAE (Vanilla VAE)
 
-<img src="./assets/vae-celeba-random.png" width=30% />
+<img src="./assets/vae-mnist-random.png" width=30% /> <img src="./assets/vae-celeba-random.png" width=30% />
